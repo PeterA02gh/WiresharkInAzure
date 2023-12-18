@@ -1,4 +1,4 @@
-<h1>Let's begin by creating our resource group!</h1>
+<h1>Let's begin by creating our resources!</h1>
 
     Go to portal.azure.com. There are a wide variety of options to click on, but go ahead and click on 'Resource Groups'.
 
@@ -20,10 +20,10 @@
     the homepage. Let's make our Windows 10 VM.
 
     It should be under our Azure subscription and inside the Resource Group we made earlier. Put it inside the Resource Group if
-    it isn't already. Name it 'VM1' and put it inside the same region as the Resource Group. For the size, the smallest should
-    work fine for this lab. Let's give ourselves a username and password for this virtual machine.
+    it isn't already. Name it 'VM1' and put it inside the same region as the Resource Group. For the image, use Windows 10 (22H2).
+    For the size, the smallest should work fine for this lab. Let's give ourselves a username and password for this virtual machine.
     
-    ‼️Write it down! You will need it later to Remote Desktop into it!‼️
+    ‼️Write it down! We will need the username and password later to Remote Desktop into VM1!‼️
     
 <p>
 <img src="https://i.imgur.com/B0zB7nn.png" alt="Creating our Windows 10 VM"/>
@@ -34,8 +34,23 @@
     Create a vnet and name it 'RG-Lab-1-vnet'. We will be using this vnet for both of the virtual machines.
 
 <p>
-<img src="https://i.imgur.com/n6hXrV1.png" alt="Creating our Windows 10 VM"/>
+<img src="https://i.imgur.com/n6hXrV1.png" alt="Creating our VNET"/>
 </p>
 
     After that, the virtual machine is now ready to be deployed! Click create and allow it to process.
-    In the meantime, we can create our Linux server virtual Machine.
+    In the meantime, we can create our Linux server virtual Machine. Create another virtual machine and follow the same processes
+    but this time name it 'VM2'and image it with Ubuntu Server 20.04.
+
+<p>
+<img src="https://i.imgur.com/6CDP1nm.png" alt="Creating our Ubuntu Server VM"/>
+</p>
+
+    Rather than have the 'Authentication type' be set to SSH public key, let's change it to password. It will prompt for a username
+    and password just like VM1. Did you remember to write it down?
+
+<p>
+<img src="https://i.imgur.com/hSTqfiW.png" alt="Setting our Ubuntu Server VNET"/>
+</p>
+
+    Just like VM1, set the virtual network of the Ubuntu server to RG-Lab-1-vnet. We want both VM's on the same virtual network.
+    It would be like two computers connected to the same router but on different
