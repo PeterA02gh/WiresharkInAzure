@@ -54,4 +54,11 @@
 
     Just like VM1, set the virtual network of the Ubuntu server to RG-Lab-1-vnet. We want both VM's on the same virtual network.
     It would be like two computers connected to the same router but on different
-    
+
+<p>
+<img src="https://i.imgur.com/16Zmk36.png" alt="Setting our Ubuntu Server VNET"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
+</p>
