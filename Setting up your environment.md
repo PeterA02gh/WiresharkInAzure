@@ -76,5 +76,11 @@
 <img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
 </p>
 
-    Download the Windows x64 installer. Click yes to all until Wireshark is finished installing.
+    Download the Windows x64 installer. Click yes to all until Wireshark is finished installing. We can close Edge now.
+<p>
+<img src="https://i.imgur.com/ZooJt9R.png" alt="Setting our Ubuntu Server VNET"/>
+</p>
+
+    Wireshark should look something like this. You might notice that a bunch of network traffic is happening despite not having
+    anything else open. This is because we have RDP traffic flowing from VM1 to your physical computer!
     Congrats! We now have our environment set up for this lab!.
