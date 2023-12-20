@@ -68,10 +68,13 @@
 <img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
 </p>
 
-    The virtual machine will now ask us how we'd like to set up our new Windows 10 operating system. We can just ignore this and go straight to the new operating system. 
+    The virtual machine will now ask us how we'd like to set up our new Windows 10 operating system. 
+    We can just ignore this and go straight to the new operating system. 
     Our next step is getting Wireshark set up on VM1. Let's open up Microsoft Edge and download Wireshark from it's official website.
 
 <p>
 <img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
 </p>
 
+    Download the Windows x64 installer. Click yes to all until Wireshark is finished installing.
+    Congrats! We now have our environment set up for this lab!.
