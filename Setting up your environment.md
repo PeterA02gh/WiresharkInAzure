@@ -59,6 +59,19 @@
 <img src="https://i.imgur.com/16Zmk36.png" alt="Setting our Ubuntu Server VNET"/>
 </p>
 
+    We now have both virtual machines ready for the lab to use! Let's connect to the Windows 10 VM using Remote Desktop Connection. 
+    First, go to VM1 under 'Virtual Machines' and find it's public IP address. 
+    Open up Remote Desktop by searching for Remote Desktop in the start menu search bar. Paste VM1's public IP address into RDP. 
+    It will now prompt you for the username and password we set earlier.
+
 <p>
 <img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
 </p>
+
+    The virtual machine will now ask us how we'd like to set up our new Windows 10 operating system. We can just ignore this and go straight to the new operating system. 
+    Our next step is getting Wireshark set up on VM1. Let's open up Microsoft Edge and download Wireshark from it's official website.
+
+<p>
+<img src="https://i.imgur.com/N8QRGC0.png" alt="Setting our Ubuntu Server VNET"/>
+</p>
+
