@@ -1,4 +1,4 @@
-<h1>Let's begin by creating our resources!</h1>
+# Let's begin by creating our resources!
 
     Go to portal.azure.com. There are a wide variety of options to click on, but go ahead and click on 'Resource Groups'.
 
@@ -54,3 +54,4 @@
 
     Just like VM1, set the virtual network of the Ubuntu server to RG-Lab-1-vnet. We want both VM's on the same virtual network.
     It would be like two computers connected to the same router but on different
+    
