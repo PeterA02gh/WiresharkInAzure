@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/nTeExix.jpg" alt="Wireshark"/>
 </p>
   
-  This project will show you how to analyze various network traffic using Wirehark inside a Microsoft Azure environment!
+  This project will show you how to analyze various network traffic using Wireshark inside a Microsoft Azure environment!
 
 # Prerequisites: 
 
